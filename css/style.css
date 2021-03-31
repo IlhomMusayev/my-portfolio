@@ -1,0 +1,230 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+@font-face{
+    font-family: "Poppins";
+    src: url(../font/Poppins-Medium.ttf);
+    font-weight: 400;
+}
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    display: inline-block;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    font-family: "Poppins";
+    background-color: #F1F1F1;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.visually-hidden {
+    position: absolute !important;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+    clip: rect(1px 1px 1px 1px);
+    /* IE6, IE7 */
+    clip: rect(1px, 1px, 1px, 1px);
+}
+/* *******************************Animation ******************************* */
+
+
+
+/* ********************************Navbar******************************** */
+nav{
+    padding: 30px 0;
+}
+.logo-title{
+    font-size: 22px;
+    color: #151517;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.list-item{
+    display: inline-block;
+    margin-left: 20px;
+}
+.list-link{
+    text-decoration: none;
+    color: #151517;
+}
+.list-link.active{
+    color: #EEBF63;
+}
+.list-link:hover{
+    transition: 0.3s;
+    color: #EEBF63;
+}
+
+
+/* *******************************************Header********************************* */
+header{
+    background: url(../img/Bullet\ Points.png) no-repeat, url("../img/Circle.png") no-repeat;
+    background-size: 200px, 450px;
+    background-position: 53% 70%, 70% 20%;
+}
+.header-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 80px 0;
+}
+.header-text{
+    width: 50%;
+}
+.header-text span{
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #828282;
+}
+.header-text h1{
+    font-size: 48px;
+    color: #151517;
+}
+.header-text h1 span{
+    font-size: 48px;
+    text-transform: none;
+    color: #EEBF63;
+}
+.header-text p{
+    font-size: 18px;
+    padding: 20px 0;
+    line-height: 30px;
+    color: #151517;
+    width: 80%;
+}
+.header-img{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.header-img img{
+    width: 500px; /* width of container */
+    height: 500px; /* height of container */
+    object-fit: cover;
+    object-position: 50% 50%;
+    border-radius: 50%;
+}
+.my-social-networks{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.my-social-networks h2{
+    font-size: 18px;
+    color: #828282;
+    padding-right: 20px;
+}
+.my-social-networks a img{
+    width: 30px;
+    margin-left: 20px;
+}
+.buttons-items{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 30px 0;
+}
+.btn-item button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 25px;
+    margin-right: 20px;
+    background-color: #EEBF63;
+    color: #fff;
+    border: 3px solid #EEBF63;
+    border-radius: 8px;
+}
+.btn-item.btn-download button{
+    background: none;
+    color: #000;
+    border: 2px solid #EEBF63;
+    
+}
+button img{
+    margin-right: 10px;
+}
+/* }******************************************content-section**************************** */
+.centent{
+    background-color: #E9E9E9;
+    padding: 50px 0;
+    border-radius: 30px;
+}
+.content-section{
+    display: flex;
+    justify-content: center;
+    align-items: top;
+}
+.content-img{
+    width: 30%;
+}
+.content-img img{
+    border-radius: 30px;
+}
+.contet-title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.content-text{
+    width: 50%;
+    padding-left: 50px;
+}
+.my-product-counts h1{
+    font-size: 72px;
+    color: #151517;
+}
+.my-product-counts h1 span{
+    color: #8ED2A9;
+}
+.my-product-counts h2{
+    color: #828282;
+}
+.my-post h1{
+    font-size: 35px;
+    padding: 30px 0 20px 0;
+}
+.my-post p{
+    font-size: 18px;
+    line-height: 30px;
+}
+.starts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.starts h3{
+    font-size: 45px;
+    padding-right: 10px;
+    color: #151517;
+}
+.ball-section h2{  
+    color: #828282;
+    margin-top: 30px;
+}
+
+
+
+
+
+
